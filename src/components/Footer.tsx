@@ -36,7 +36,7 @@ const Footer = () => {
                 <GraduationCap className="h-6 w-6" />
               </div>
               <div className="flex flex-col">
-                <span className="font-heading font-bold text-lg">TechEdu Pro</span>
+                <span className="font-heading font-bold text-lg">Aicore System</span>
                 <span className="text-xs text-primary-foreground/70">AI & Blockchain Academy</span>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="py-6 border-t border-primary-foreground/10">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-primary-foreground/80 text-sm mb-4 md:mb-0">
-              © 2024 TechEdu Pro. All rights reserved.
+              © 2024 Aicore System. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-primary-foreground/80 hover:text-white transition-smooth">Privacy Policy</a>

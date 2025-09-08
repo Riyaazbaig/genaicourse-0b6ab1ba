@@ -10,7 +10,7 @@ const CoursesSection = () => {
       duration: "6 months",
       students: 2800,
       rating: 4.9,
-      price: "$2,999",
+      price: "₹1,99,999",
       category: "Gen-AI" as const,
       level: "Beginner" as const,
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
@@ -21,7 +21,7 @@ const CoursesSection = () => {
       duration: "6 months",
       students: 1950,
       rating: 4.8,
-      price: "$3,499",
+      price: "₹2,49,999",
       category: "Gen-AI" as const,
       level: "Advanced" as const,
       image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80"
@@ -32,7 +32,7 @@ const CoursesSection = () => {
       duration: "6 months",
       students: 3200,
       rating: 4.9,
-      price: "$2,799",
+      price: "₹1,89,999",
       category: "Blockchain" as const,
       level: "Intermediate" as const,
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80"
@@ -43,7 +43,7 @@ const CoursesSection = () => {
       duration: "6 months",
       students: 2100,
       rating: 4.7,
-      price: "$2,599",
+      price: "₹1,79,999",
       category: "Blockchain" as const,
       level: "Intermediate" as const,
       image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=800&q=80"
@@ -54,7 +54,7 @@ const CoursesSection = () => {
       duration: "6 months",
       students: 1600,
       rating: 4.8,
-      price: "$3,299",
+      price: "₹2,29,999",
       category: "Blockchain" as const,
       level: "Advanced" as const,
       image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80"
@@ -65,7 +65,7 @@ const CoursesSection = () => {
       duration: "6 months",
       students: 1400,
       rating: 4.9,
-      price: "$2,399",
+      price: "₹1,69,999",
       category: "Gen-AI" as const,
       level: "Intermediate" as const,
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"

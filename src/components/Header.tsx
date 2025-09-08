@@ -22,7 +22,7 @@ const Header = () => {
               <GraduationCap className="h-6 w-6 text-white" />
             </div>
             <div className="flex flex-col">
-              <span className="font-heading font-bold text-lg">TechEdu Pro</span>
+              <span className="font-heading font-bold text-lg">Aicore System</span>
               <span className="text-xs text-muted-foreground">AI & Blockchain Academy</span>
             </div>
           </div>
