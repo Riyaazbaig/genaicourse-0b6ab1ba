@@ -1,15 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Clock, Users, Award } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
         <div className="absolute inset-0 gradient-hero opacity-90"></div>
       </div>
 
@@ -25,7 +22,7 @@ const Hero = () => {
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 text-balance">
             Master the Future with
-            <span className="gradient-accent bg-clip-text text-transparent block">
+            <span className="gradient-accent bg-clip-text block text-zinc-50">
               Gen-AI & Blockchain
             </span>
           </h1>
@@ -42,11 +39,7 @@ const Hero = () => {
               Start Learning Today
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button 
-              variant="outline" 
-              size="xl" 
-              className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
-            >
+            <Button variant="outline" size="xl" className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
               <Play className="h-5 w-5 mr-2" />
               Watch Demo
             </Button>
@@ -85,8 +78,6 @@ const Hero = () => {
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-bounce"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

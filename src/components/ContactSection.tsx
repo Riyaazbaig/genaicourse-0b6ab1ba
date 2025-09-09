@@ -5,10 +5,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
-
 const ContactSection = () => {
-  return (
-    <section id="contact" className="py-20 bg-gradient-subtle">
+  return <section id="contact" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Contact Info */}
@@ -16,7 +14,7 @@ const ContactSection = () => {
             <div className="mb-8">
               <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                 Ready to 
-                <span className="gradient-primary bg-clip-text text-transparent"> Transform Your Career?</span>
+                <span className="gradient-primary bg-clip-text text-gray-950"> Transform Your Career?</span>
               </h2>
               <p className="text-xl text-muted-foreground text-balance">
                 Get personalized guidance from our career counselors and start your journey in AI & Blockchain
@@ -78,17 +76,10 @@ const ContactSection = () => {
             {/* Benefits */}
             <div className="space-y-3">
               <h3 className="font-heading font-semibold text-lg mb-4">What You Get:</h3>
-              {[
-                "Free career assessment",
-                "Personalized learning path",
-                "Industry mentor assignment",
-                "Job placement assistance"
-              ].map((benefit, index) => (
-                <div key={index} className="flex items-center space-x-3">
+              {["Free career assessment", "Personalized learning path", "Industry mentor assignment", "Job placement assistance"].map((benefit, index) => <div key={index} className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-success" />
                   <span className="text-muted-foreground">{benefit}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
 
@@ -176,10 +167,7 @@ const ContactSection = () => {
 
               <div>
                 <label className="text-sm font-medium mb-2 block">Message (Optional)</label>
-                <Textarea 
-                  placeholder="Tell us about your career goals and any specific questions you have..."
-                  rows={4}
-                />
+                <Textarea placeholder="Tell us about your career goals and any specific questions you have..." rows={4} />
               </div>
 
               <Button variant="hero" size="lg" className="w-full">
@@ -194,8 +182,6 @@ const ContactSection = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
