@@ -32,8 +32,8 @@ const ContactSection = () => {
                     <div>
                       <h3 className="font-heading font-semibold mb-1">Phone Support</h3>
                       <p className="text-muted-foreground mb-2">Speak with our enrollment team</p>
-                      <a href="tel:+1234567890" className="text-primary font-medium hover:underline">
-                        +1 (234) 567-8900
+                      <a href="tel:+919739463988" className="text-primary font-medium hover:underline">
+                        +91 9739463988
                       </a>
                     </div>
                   </div>
