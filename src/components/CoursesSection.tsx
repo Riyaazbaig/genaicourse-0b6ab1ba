@@ -69,7 +69,7 @@ const CoursesSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 text-balance">
             Industry-Leading 
-            <span className="gradient-primary bg-clip-text text-gray-950"> Certification Programs</span>
+            <span className="gradient-primary bg-clip-text text-zinc-950"> Certification Programs</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 text-balance">
             Choose from our comprehensive 6-month certification programs designed by industry experts and tailored for career advancement

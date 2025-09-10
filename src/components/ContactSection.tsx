@@ -14,7 +14,7 @@ const ContactSection = () => {
             <div className="mb-8">
               <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                 Ready to 
-                <span className="gradient-primary bg-clip-text text-gray-950"> Transform Your Career?</span>
+                <span className="gradient-primary bg-clip-text text-zinc-950"> Transform Your Career?</span>
               </h2>
               <p className="text-xl text-muted-foreground text-balance">
                 Get personalized guidance from our career counselors and start your journey in AI & Blockchain
