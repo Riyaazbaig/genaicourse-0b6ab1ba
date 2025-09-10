@@ -49,8 +49,8 @@ const ContactSection = () => {
                     <div>
                       <h3 className="font-heading font-semibold mb-1">Email Us</h3>
                       <p className="text-muted-foreground mb-2">Get detailed information</p>
-                      <a href="mailto:admissions@aicore.in" className="text-primary font-medium hover:underline">
-                        admissions@aicore.in
+                      <a href="mailto:course.enquiry@aicoresystem.in" className="text-primary font-medium hover:underline">
+                        course.enquiry@aicoresystem.in
                       </a>
                     </div>
                   </div>
