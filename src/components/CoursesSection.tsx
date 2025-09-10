@@ -123,7 +123,7 @@ const CoursesSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 text-balance">
             Blockchain & Generative AI 
-            <span className="gradient-primary bg-clip-text text-zinc-950"> Course Price List</span>
+            <span className="text-white"> Course Price List</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 text-balance">
             Choose from our comprehensive courses ranging from 4-20 weeks, designed by industry experts with affordable pricing in Indian Rupees
