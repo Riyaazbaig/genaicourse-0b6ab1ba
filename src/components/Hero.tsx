@@ -22,7 +22,7 @@ const Hero = () => {
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 text-balance">
             Master the Future with
-            <span className="gradient-accent bg-clip-text block text-zinc-50">
+            <span className="gradient-accent bg-clip-text block text-gray-50">
               Gen-AI & Blockchain
             </span>
           </h1>
