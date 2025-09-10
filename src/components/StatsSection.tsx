@@ -36,7 +36,7 @@ const StatsSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 text-balance">
             Trusted by Thousands of
-            <span className="gradient-primary bg-clip-text text-gray-950"> Professionals</span>
+            <span className="gradient-primary bg-clip-text text-zinc-950"> Professionals</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-balance">
             Join a community of learners who have transformed their careers with our industry-leading certification programs
