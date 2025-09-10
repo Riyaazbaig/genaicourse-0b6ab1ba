@@ -10,7 +10,7 @@ interface CourseCardProps {
   students: number;
   rating: number;
   price: string;
-  category: "Gen-AI" | "Blockchain";
+  category: "Gen-AI" | "Blockchain" | "Combo";
   level: "Beginner" | "Intermediate" | "Advanced";
   image: string;
 }
@@ -37,8 +37,12 @@ const CourseCard = ({
         />
         <div className="absolute top-4 left-4">
           <Badge 
-            variant={category === "Gen-AI" ? "default" : "secondary"}
-            className={category === "Gen-AI" ? "gradient-primary text-white" : "bg-secondary text-secondary-foreground"}
+            variant={category === "Gen-AI" ? "default" : category === "Combo" ? "secondary" : "secondary"}
+            className={
+              category === "Gen-AI" ? "gradient-primary text-white" : 
+              category === "Combo" ? "bg-gradient-to-r from-primary to-secondary text-white" :
+              "bg-secondary text-secondary-foreground"
+            }
           >
             {category}
           </Badge>
